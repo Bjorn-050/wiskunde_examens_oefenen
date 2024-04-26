@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Driehoeken Oefenen</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Oefen met Driehoeken</h1>
+    <div id="question1" class="triangle-container" style="display:none;">
+        <div class="triangle">
+            <h2>Welk type driehoek is dit?</h2>
+            <img src="https://assets.junioreinstein.nl/images/articles/1087/04_omtrek_driehoek_gelijkbenig_2.png" alt="Gelijkbenige Driehoek">
+            <button onclick="selectOption('gelijkbenig', 'question1')">A: Gelijkbenig</button>
+            <button onclick="selectOption('gelijkzijdig', 'question1')">B: Gelijkzijdig</button>
+            <button onclick="selectOption('rechthoekig', 'question1')">C: Rechthoekig</button>
+        </div>
+    </div>
+    <div id="question2" class="triangle-container" style="display:none;">
+        <div class="triangle">
+            <h2>Welk type driehoek is dit?</h2>
+            <img src="https://assets.junioreinstein.nl/images/rekenen/meten/01_omtrek_driehoek_voorbeeld.png" alt="Rechthoekige Driehoek">
+            <button onclick="selectOption('gelijkbenig', 'question2')">A: Gelijkbenig</button>
+            <button onclick="selectOption('gelijkzijdig', 'question2')">B: Gelijkzijdig</button>
+            <button onclick="selectOption('rechthoekig', 'question2')">C: Rechthoekig</button>
+        </div>
+    </div>
+    <div id="question3" class="triangle-container" style="display:none;">
+        <div class="triangle">
+            <h2>Welk type driehoek is dit?</h2>
+            <img src="https://assets.junioreinstein.nl/images/articles/1087/02_omtrek_driehoek_gelijkzijdig_2.png" alt="Gelijkzijdige Driehoek">
+            <button onclick="selectOption('gelijkbenig', 'question3')">A: Gelijkbenig</button>
+            <button onclick="selectOption('gelijkzijdig', 'question3')">B: Gelijkzijdig</button>
+            <button onclick="selectOption('rechthoekig', 'question3')">C: Rechthoekig</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
